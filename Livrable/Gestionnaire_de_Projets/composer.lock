@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3a81ea5a73ebc29fdd013d76177a616e",
+    "content-hash": "1d758d2e207d5442fd42d24911ba6861",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -675,6 +675,74 @@
                 "psysh"
             ],
             "time": "2019-08-07T15:10:45+00:00"
+        },
+        {
+            "name": "laravelcollective/html",
+            "version": "v6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelCollective/html.git",
+                "reference": "6d5c71602191be5f3479fbd9acbc593d9f6b0c81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/6d5c71602191be5f3479fbd9acbc593d9f6b0c81",
+                "reference": "6d5c71602191be5f3479fbd9acbc593d9f6b0c81",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "6.0.*",
+                "illuminate/routing": "6.0.*",
+                "illuminate/session": "6.0.*",
+                "illuminate/support": "6.0.*",
+                "illuminate/view": "6.0.*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "illuminate/database": "6.0.*",
+                "mockery/mockery": "~1.0",
+                "phpunit/phpunit": "~7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.0-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Collective\\Html\\HtmlServiceProvider"
+                    ],
+                    "aliases": {
+                        "Form": "Collective\\Html\\FormFacade",
+                        "Html": "Collective\\Html\\HtmlFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adam Engebretson",
+                    "email": "adam@laravelcollective.com"
+                },
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "HTML and Form Builders for the Laravel Framework",
+            "homepage": "https://laravelcollective.com",
+            "time": "2019-08-27T20:36:57+00:00"
         },
         {
             "name": "league/flysystem",
@@ -3005,16 +3073,16 @@
         },
         {
             "name": "facade/ignition",
-            "version": "1.4.9",
+            "version": "1.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "fd73e1844216fe611d309611f2b2ec51453c165e"
+                "reference": "8c3807dfbc1b2725dd87e20793a6b085f9fed381"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/fd73e1844216fe611d309611f2b2ec51453c165e",
-                "reference": "fd73e1844216fe611d309611f2b2ec51453c165e",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/8c3807dfbc1b2725dd87e20793a6b085f9fed381",
+                "reference": "8c3807dfbc1b2725dd87e20793a6b085f9fed381",
                 "shasum": ""
             },
             "require": {
@@ -3069,7 +3137,7 @@
                 "laravel",
                 "page"
             ],
-            "time": "2019-09-04T13:19:06+00:00"
+            "time": "2019-09-04T14:36:37+00:00"
         },
         {
             "name": "facade/ignition-contracts",
