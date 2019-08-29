@@ -982,7 +982,7 @@ ColnFKName=%.3:PARENT%_%COLUMN%
 ColnFKNameUse=No
 RefrUpdRule=RESTRICT
 RefrDelRule=RESTRICT</a:ModelOptionsText>
-<a:RepositoryFilename>D:\Moi\Documents\briefs\ISOPROM\Diagrammes\Séquences\Creation_Compte_Admin.moo</a:RepositoryFilename>
+<a:RepositoryFilename>D:\Documents\Git\isoprom\Diagrammes\Séquences\Creation_Compte_Admin.moo</a:RepositoryFilename>
 <c:ObjectLanguage>
 <o:Shortcut Id="o3">
 <a:ObjectID>EF6F3871-E88D-4189-BF85-ABBA91B54162</a:ObjectID>
@@ -1488,7 +1488,7 @@ Shadow=0</a:DisplayPreferences>
 <o:MessageSymbol Id="o7">
 <a:CreationDate>1531491690</a:CreationDate>
 <a:ModificationDate>1531492745</a:ModificationDate>
-<a:Rect>((-14325,1388), (12299,2702))</a:Rect>
+<a:Rect>((-14325,1388), (12299,2734))</a:Rect>
 <a:ListOfPoints>((12299,1688),(-14325,1688))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -1511,7 +1511,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o11">
 <a:CreationDate>1531491585</a:CreationDate>
 <a:ModificationDate>1531492745</a:ModificationDate>
-<a:Rect>((-14325,-7387), (12299,-6066))</a:Rect>
+<a:Rect>((-14325,-7387), (12299,-6042))</a:Rect>
 <a:ListOfPoints>((12299,-7087),(-14325,-7087))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -1535,7 +1535,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <a:CreationDate>1531491528</a:CreationDate>
 <a:ModificationDate>1531492745</a:ModificationDate>
 <a:CenterTextOffset>(150, 75)</a:CenterTextOffset>
-<a:Rect>((12299,-6112), (19674,-3487))</a:Rect>
+<a:Rect>((12299,-6112), (19649,-3487))</a:Rect>
 <a:ListOfPoints>((12299,-3487),(15899,-3487),(15899,-5812),(12299,-5812))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -1558,7 +1558,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <a:CreationDate>1531491444</a:CreationDate>
 <a:ModificationDate>1531492745</a:ModificationDate>
 <a:CenterTextOffset>(-675, 75)</a:CenterTextOffset>
-<a:Rect>((-14325,-1837), (12299,-441))</a:Rect>
+<a:Rect>((-14325,-1837), (12299,-417))</a:Rect>
 <a:ListOfPoints>((-14325,-1537),(12299,-1537))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -1876,11 +1876,12 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>Diagramme_de_sequence_authentification</a:Code>
 <a:CreationDate>1531492731</a:CreationDate>
 <a:Creator>emsi-pc</a:Creator>
-<a:ModificationDate>1531492731</a:ModificationDate>
-<a:Modifier>emsi-pc</a:Modifier>
-<a:TargetModelURL>file:///C|/Users/emsi-pc/Desktop/stage Connect to All/Diagramme de séquence_authentification.moo</a:TargetModelURL>
+<a:ModificationDate>1566916097</a:ModificationDate>
+<a:Modifier>Abdess</a:Modifier>
+<a:TargetModelURL>file:///D|/Documents/Git/isoprom/Diagrammes/Séquences/Authentification.moo</a:TargetModelURL>
 <a:TargetModelID>54557FDA-D422-4662-B2A0-971B6B8DD079</a:TargetModelID>
 <a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+<a:TargetModelLastModificationDate>1566916097</a:TargetModelLastModificationDate>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o27"/>
 </c:SessionShortcuts>
