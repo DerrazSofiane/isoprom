@@ -14,7 +14,11 @@ class CreateTachesTable extends Migration
     public function up()
     {
         Schema::create('taches', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->increments('id');
+            $table->longText('description');
+            $table->enum('etat',array('en-cours','fini','validee','non-validee'));
+                    $table->enum('type',array('final','non-final'));
+                    $table->rememberToken();
             $table->timestamps();
         });
     }
