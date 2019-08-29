@@ -18,11 +18,11 @@ class CreateProjetsTable extends Migration
             $table->string('intitulee',100)->unique();
             $table->longText('description');
             $table->dateTime('date_limite');
-              $table->dateTime('date_debut');
+              $table->dateTime('date_debut');/* modifiable */
                 $table->dateTime('date_fin');
-                  $table->enum('deplacement',array('O','N'));
-                    $table->integer('deroulement');
-                      $table->string('responsable');
+                $table->enum('deplacement',array('O','N'));
+                    $table->enum('état',array('en-cours','clos'));
+                $table->longText('commentaire');
             $table->rememberToken();
             $table->timestamps();
         });

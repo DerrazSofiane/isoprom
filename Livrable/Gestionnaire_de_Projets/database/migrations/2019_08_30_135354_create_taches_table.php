@@ -16,9 +16,13 @@ class CreateTachesTable extends Migration
         Schema::create('taches', function (Blueprint $table) {
             $table->increments('id');
             $table->longText('description');
-            $table->enum('etat',array('en-cours','fini','validee','non-validee'));
+            $table->DateTime('date_limite');
+            $table->enum('état',array('en-cours','fini','validée','non-validée'));
                     $table->enum('type',array('final','non-final'));
-                    $table->rememberToken();
+                    $table->integer('déroulement'); /* avec % */
+                    $table->integer('priorité'); /* de 0....*  colors red...green*/
+            $table->longText('commentaire');
+            $table->rememberToken();
             $table->timestamps();
         });
     }
