@@ -9,10 +9,15 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
+        "abdess/laravel-fullcalendar": "^1.4",
+        "doctrine/dbal": "^2.9",
         "fideloper/proxy": "^4.0",
+        "laracasts/flash": "^3.0",
+        "laracasts/utilities": "^3.0",
         "laravel/framework": "^6.0",
         "laravel/tinker": "^1.0",
-        "laravelcollective/html": "^6.0"
+        "laravelcollective/html": "^6.0",
+        "yajra/laravel-datatables-oracle": "^9.6"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
