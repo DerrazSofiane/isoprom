@@ -29,4 +29,8 @@ class ForgotPasswordController extends Controller
     {
         $this->middleware('guest');
     }
+  /* public function  showLinkRequestForm(){
+  use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
+     // contient la vue (auth.passwords.email)
+  }*/
 }

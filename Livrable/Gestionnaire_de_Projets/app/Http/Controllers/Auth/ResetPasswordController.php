@@ -25,7 +25,7 @@ class ResetPasswordController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/';
 
     /**
      * Create a new controller instance.
@@ -36,4 +36,13 @@ class ResetPasswordController extends Controller
     {
         $this->middleware('guest');
     }
+    public function showResetForm(){
+
+    }
+    /*public function showResetForm(Request $request)
+    in Illuminate\Foundation\Auth\ResetsPasswords;
+        return view('auth.passwords.reset')->with(
+        ['token' => $token, 'email' => $request->email]
+    );
+    */
 }
