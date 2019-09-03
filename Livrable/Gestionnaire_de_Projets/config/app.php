@@ -163,7 +163,8 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         /*Ajout de Form & HTML*/
         Collective\Html\HtmlServiceProvider::class,
-
+        /*Ajout pour afficher les messages flash*/
+          Laracasts\Flash\FlashServiceProvider::class,
         /*
          * Package Service Providers...
          */
@@ -176,7 +177,10 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        //DataTable
+        Yajra\DataTables\DataTablesServiceProvider::class,
+        /*Calendrier*/
+        MaddHatter\LaravelFullcalendar\ServiceProvider::class,
     ],
 
     /*
@@ -227,9 +231,15 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        /*Ajout de Form & HTML*/
+        /*Ajout pour afficher les messages flash*/
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+        'Flash' => Laracasts\Flash\Flash::class,
+        'Input' => Illuminate\Support\Facades\Input::class,
+        //DataTable
+         'DataTables' => Yajra\DataTables\Facades\DataTables::class,
+        /*Calendrier*/
+         'Calendar' => MaddHatter\LaravelFullcalendar\Facades\Calendar::class,
     ],
 
 ];
