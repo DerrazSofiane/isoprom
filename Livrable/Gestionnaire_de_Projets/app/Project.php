@@ -29,7 +29,7 @@ class Project extends Model
 	{
 		if($this->state == 0 && $this->finishDate == null){/*si le projet est clos*/
 			return true;
-			 /*  $project->finishDate=date('Y-m-d H:i:s');on precise la date de fin*/
+			 /*  $project->finishDate=date('d-m-Y H:i:s');on precise la date de fin*/
 		}else{
 			return false;
 			// $project->finishDate='0000-00-00 00:00:00';

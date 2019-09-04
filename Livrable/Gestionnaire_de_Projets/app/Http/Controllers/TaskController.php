@@ -181,7 +181,7 @@ class TaskController extends Controller
           if($request->progress=="100" && $task->state=='IN_PROGRESS'){
             $task->state='FINISHED';
 
-            $t_u->finishDate = date('Y-m-d H:i:s');
+            $t_u->finishDate = date('d-m-Y H:i:s');
             $t_u->needCalculating = 1;
           }else{
             $task->state='IN_PROGRESS';
@@ -190,7 +190,7 @@ class TaskController extends Controller
             $to = Carbon::parse($t_u->finishDate);
             $t_u->hoursCount = $to->diffInMinutes($from);
 
-            $t_u->startDate = date('Y-m-d H:i:s');
+            $t_u->startDate = date('d-m-Y H:i:s');
             $t_u->finishDate = null;
             $t_u->needCalculating = 0;
           }
