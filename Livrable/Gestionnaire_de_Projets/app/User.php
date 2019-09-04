@@ -1,6 +1,9 @@
 <?php
 
 namespace App;
+use App\Task;
+use App\Projet;
+use App\Task_User;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
