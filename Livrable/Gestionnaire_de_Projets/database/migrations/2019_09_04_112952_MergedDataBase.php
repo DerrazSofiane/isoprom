@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class FullDataBaseRename extends Migration
+class MergedDatabase extends Migration
 {
     /**
      * Run the migrations.
