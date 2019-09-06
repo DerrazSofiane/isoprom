@@ -108,7 +108,7 @@
          <?php elseif( $month->Inweekend($date)) :?> <!--si week-end -->
 
               <?php if( !($month->withinMonth($date))):?><!-- et pas dans le mois -->
-                   <td title="<?= $month->Isfreeday($date); ?>" class="calendar__freedays__exclut">
+                   <td title="<?= $month->Isfreeday($date); ?>" class="calendar__freedays__exclu">
               <?php else :?>
                    <td title="<?= $month->Isfreeday($date); ?>" class="calendar__freedays">
               <?php endif ;?>
