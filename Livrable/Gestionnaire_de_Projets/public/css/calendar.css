@@ -1,0 +1,115 @@
+.month__header p{
+  width: 40%;
+  height: 40%;
+     text-align: center;
+     padding-bottom: 10px;
+     border-bottom: 1px solid #d6d6d6;
+    font: italic bold 30px/30px Georgia, serif;
+}
+.flech__prev a{
+position: fixed;
+float: left;
+border-radius: 70%;
+font-size:50px;
+}
+
+.flech__next a{
+position: fixed;
+float:right;
+border-radius: 70%;
+font-size:50px;
+}
+
+.calendar__table table{
+   border-radius: 25px;
+  margin: 100px auto;
+  background-color: lightgray;
+  font-family: 'Kanit', sans-serif;
+   width: 70%; /* largeur */
+   height: calc(80vh - 128px);
+}
+.calendar__table td{
+
+  padding: 10px;
+ border: 1px solid #CCC;
+ vertical-align: top;
+ width: 14.29%; /*100 % 7 */
+ height: 20%;
+}
+.calendar__table--6weeks td { /*danss le cas où le mois a 6 semaines*/
+  height: 16.66%; /*100 % 6*/
+
+}
+
+.calendar__weekday{
+  font: italic bold 10px/15px Georgia, serif;
+  color: #0273B8;
+   background-color: #ddd;
+  font-size: 1.0em;
+  border-bottom: 2px solid;
+  margin: 0;
+  padding: 10px 0;
+}
+.calendar__othermonth {/*pour les jours d'autre mois*/
+
+font: italic bold 14px/14px Georgia, serif;
+color: black;
+  opacity: 0.3;
+
+}
+.calendar__active_othermonth {/*date courante et autre mois*/
+  font: italic bold 14px/14px Georgia, serif;
+   background-color: lightgrey;
+    border-style: solid;
+    border-width: 2px;
+     border-color:  #0273B8;
+     padding: 5px;
+    color: #0273B8;
+    opacity: 0.3;
+}
+.calendar__freedays{/*jours férié*/
+  color: #0273B8;
+  background-color: #d6d6d6;
+  font: italic bold 14px/14px Georgia, serif;
+}
+.calendar__active__freedays {/*date courante et jours férié*/
+  border-radius: 50px;
+  background-color: #d6d6d6;
+}
+.calendar__active {/*date courante*/
+  font-weight: bold;
+  background-color: lightblue;
+  border-radius: 50px;
+  color: #ffffff;
+
+}
+.calendar__day {/*journée normale*/
+  font: italic bold 14px/14px Georgia, serif;
+  color: black;
+  opacity: 1;
+}
+.calendar__day__today{
+  font: italic bold 14px/14px Georgia, serif;
+  color:#00589D;
+  opacity: 1;
+}
+.calendar__freedays__exclu{
+  color: #0273B8;
+  background-color: lightblue;
+  font-weight: bold;
+  opacity: 0.3;
+}
+.calendar__day__free{ /*jour férié*/
+  font: italic bold 14px/14px Georgia, serif;
+  color:#26C216;
+  opacity: 1;
+}
+#freeday_title{ /*afficher le titre au passage de la souris*/
+  font-weight: bold;
+  border-radius: 2px 15px 15px 15px;
+  background-color: lightgreen;
+  color: #0D7407;
+  width: 250px;
+  height: 20px;
+   padding-left: 5px;
+}
