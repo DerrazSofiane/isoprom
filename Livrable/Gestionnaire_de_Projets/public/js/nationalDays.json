@@ -1,5 +1,33 @@
-     [
-      {
-        "day": "Fête Nationale" ,"date" :["07","14"]
-      }
+     [{
+             "day": "Armistice",
+             "date": ["11", "11"]
+         },
+         {
+             "day": "Ascension",
+             "date": ["05", "10"]
+         },
+         {
+             "day": "Assomption",
+             "date": ["08", "15"]
+         },
+         {
+             "day": "Jour de l'an",
+             "date": ["01", "01"]
+         },
+         {
+             "day": "NoÃ«l",
+             "date": ["12", "25"]
+         },
+         {
+             "day": "Toussaint",
+             "date": ["11", "01"]
+         },
+         {
+             "day": "Fete du travail",
+             "date": ["05", "01"]
+         },
+         {
+             "day": "Victoire des allies",
+             "date": ["05", "08"]
+         }
      ]

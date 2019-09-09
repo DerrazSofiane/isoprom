@@ -1,42 +1,49 @@
 {
-      "2019": [
-      {"title":"Armistice", "month": "11" ,"dayStart" :"11" , "dayEnd": "11" },
-      {"title":"Ascension" ,"month": "05" ,"dayStart" : "10" , "dayEnd": "10" },
-      {"title":"Assomption" ,"month": "08" ,"dayStart" : "15", "dayEnd": "15" },
-      {"title":"Fête Nationale" ,"month": "07" ,"dayStart" : "14", "dayEnd": "14" },
-      {"title":"Jour de l'an" ,"month": "01" ,"dayStart" : "01" , "dayEnd": "01" },
-      {"title":"Lundi de Pâques" ,"month": "04" ,"dayStart" : "01", "dayEnd": "01" },
-      {"title":"Noël", "month": "12" ,"dayStart" :"25" , "dayEnd": "25" },
-      {"title":"Lundi de Pentecôte" ,"month": "05" ,"dayStart" : "20" , "dayEnd": "20" },
-      {"title":"Toussaint" ,"month": "11" ,"dayStart" : "01", "dayEnd": "01" },
-      {"title":"Victoire des alliés", "month": "05" ,"dayStart" :"08" , "dayEnd": "08" }
-      ],
+    "2019": [{
+            "title": "Lundi de Pâques",
+            "month": "04",
+            "dayStart": "01",
+            "dayEnd": "01"
+        },
+        {
+            "title": "Lundi de Pentecôte",
+            "month": "05",
+            "dayStart": "20",
+            "dayEnd": "20"
+        }
+    ],
 
-      "2020": [
-        {"title":"Armistice", "month": "11" ,"dayStart" :"11" , "dayEnd": "11" },
-        {"title":"Ascension" ,"month": "05" ,"dayStart" : "10" , "dayEnd": "10" },
-        {"title":"Assomption" ,"month": "08" ,"dayStart" : "15", "dayEnd": "15" },
-        {"title":"Fête du travail", "month": "05" ,"dayStart" :"01" , "dayEnd": "01" },
-        {"title":"Jour de l'an" ,"month": "01" ,"dayStart" : "01" , "dayEnd": "01" },
-        {"title":"Lundi de Pâques" ,"month": "04" ,"dayStart" : "06", "dayEnd": "06" },
-        {"title":"Noël", "month": "12" ,"dayStart" :"25" , "dayEnd": "25" },
-        {"title":"Lundi de Pentecôte" ,"month": "05" ,"dayStart" : "18" , "dayEnd": "18" },
-        {"title":"Toussaint" ,"month": "11" ,"dayStart" : "01", "dayEnd": "01" },
-        {"title":"Victoire des alliés", "month": "05" ,"dayStart" :"08" , "dayEnd": "08" }
-      ],
+    "2020": [
 
-      "2021": [
-        {"title":"Armistice", "month": "11" ,"dayStart" :"11" , "dayEnd": "11" },
-        {"title":"Ascension" ,"month": "05" ,"dayStart" : "10" , "dayEnd": "10" },
-        {"title":"Assomption" ,"month": "08" ,"dayStart" : "15", "dayEnd": "15" },
-        {"title":"Fête du travail", "month": "05" ,"dayStart" :"01" , "dayEnd": "01" },
-        {"title":"Jour de l'an" ,"month": "01" ,"dayStart" : "01" , "dayEnd": "01" },
-        {"title":"Lundi de Pâques" ,"month": "04" ,"dayStart" : "05", "dayEnd": "05" },
-        {"title":"Noël", "month": "12" ,"dayStart" :"25" , "dayEnd": "25" },
-        {"title":"Lundi de Pentecôte" ,"month": "05" ,"dayStart" : "24" , "dayEnd": "24" },
-        {"title":"Toussaint" ,"month": "11" ,"dayStart" : "01", "dayEnd": "01" },
-        {"title":"Victoire des alliés", "month": "05" ,"dayStart" :"08" , "dayEnd": "08" }
+        {
+            "title": "Lundi de Pâques",
+            "month": "04",
+            "dayStart": "06",
+            "dayEnd": "06"
+        },
+        {
+            "title": "Lundi de Pentecôte",
+            "month": "05",
+            "dayStart": "18",
+            "dayEnd": "18"
+        }
+    ],
 
-      ]
+    "2021": [
+
+        {
+            "title": "Lundi de Pâques",
+            "month": "04",
+            "dayStart": "05",
+            "dayEnd": "05"
+        },
+        {
+            "title": "Lundi de Pentecôte",
+            "month": "05",
+            "dayStart": "24",
+            "dayEnd": "24"
+        }
+
+    ]
 
 }
