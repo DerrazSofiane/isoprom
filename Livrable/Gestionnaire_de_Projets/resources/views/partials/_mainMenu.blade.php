@@ -6,7 +6,7 @@
 	</a> --}}
 
 	<a class="navbar-brand ml-5 mr-5" href="{{url('/')}}">
-		<img src="{{url('/')}}/C2A_light.png" width="50" height="30" alt="c2a">
+		<img src="{{url('/')}}/logo_light.png" width="50" height="30" alt="ISOPROM">
 	</a>
 
 

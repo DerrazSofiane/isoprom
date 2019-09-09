@@ -90,9 +90,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    {{-- <img src="{{url('/')}}/C2A_light.png" width="60" height="40" alt="c2a" class="btn bg-secondary"
-                    style="border-radius: 30%"> --}}
-                    <strong>Bienvenu !</strong>
+                    <strong>ISOPROM</strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7"
