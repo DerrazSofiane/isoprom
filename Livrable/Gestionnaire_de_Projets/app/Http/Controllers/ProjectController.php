@@ -67,7 +67,7 @@ class ProjectController extends Controller
 		'title' => $request->title,
 		'description' => $request->description,
 		'limitDate' => $request->limitDate,
-		'startDate' => date('d-m-Y H:i:s'),
+		'startDate' => date('Y-m-d H:i:s'),
 		//'finishDate' => '0000-00-00 00:00:00', NULL
 		'displacement' =>($request->has('displacement')),
 		'state' =>($request->state_RadioBtn),
@@ -120,7 +120,7 @@ class ProjectController extends Controller
 		}
 
 		// if($p->projetClos()){
-		// 	$p->finishDate=date('d-m-Y H:i:s');
+		// 	$p->finishDate=date('Y-m-d H:i:s');
 		// }//else{ $project->finishDate='0000-00-00 00:00:00';}
 
 		$p->save();

@@ -35,8 +35,8 @@
 
 		<td><b>{{$t->title}}</b></td>
 		<td>{{$t->project_title}}</td>
-		<td><div style="color:green;font-weight:bold">{{date('d-m-Y', strtotime($t->limitDate))}}</div></td>
-		<td>{{($t->f_d)?date('d-m-Y', strtotime($t->f_d)):'-'}}</td>
+		<td><div style="color:green;font-weight:bold">{{date('Y-m-d', strtotime($t->limitDate))}}</div></td>
+		<td>{{($t->f_d)?date('Y-m-d', strtotime($t->f_d)):'-'}}</td>
     <td>
       @if($t->priority==1)
         <div style="color:red;font-weight:bold">

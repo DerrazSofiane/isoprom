@@ -39,11 +39,11 @@
 		<div class="form-group col">
 			<label for="limitDate" class="col-form-label">Date Limite :</label>
 			<div class="input-group date form_datetime col-md-5"
-				data-date="16-09-1979T05:25:07Z" data-date-format="dd-mm-yyyy hh:ii:ss"
+				data-date="1979-09-16T05:25:07Z" data-date-format="yyyy-mm-dd hh:ii:ss"
 				data-link-field="dtp_input1"
 				style="min-width: 300px;">
 
-				<input id="limitDate" name="limitDate" class="form-control" size="16" type="text" value="09-09-2019 11:36:04" readonly>
+				<input id="limitDate" name="limitDate" class="form-control" size="16" type="text" value="2019-09-09 11:36:04" readonly>
 				<span class="input-group-append">
 					<span class="input-group-text fa fa-times fa-lg"></span>
 				</span>

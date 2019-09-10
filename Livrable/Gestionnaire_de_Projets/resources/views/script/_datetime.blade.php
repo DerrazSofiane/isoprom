@@ -1,3 +1,3 @@
 <script type="text/javascript">
-    $(".form_datetime").datetimepicker({format: 'dd-mm-yyyy hh:ii'});
+    $(".form_datetime").datetimepicker({format: 'yyyy-mm-dd hh:ii'});
 </script>

@@ -41,7 +41,7 @@
 		<div class="form-group col">
 			<label for="limitDate" class="col-form-label">Date Limite :</label>
 			<div class="input-group date form_datetime"
-                data-date="16-09-1979T05:25:07Z" data-date-format="dd-mm-yyyy hh:ii:ss"
+                data-date="1979-09-16T05:25:07Z" data-date-format="yyyy-mm-dd hh:ii:ss"
 				data-link-field="dtp_input1"
 				style="min-width: 350px;">
 				<input id="limitDate" name="limitDate" class="form-control" size="16" type="text" value="{{ $p->limitDate }}" readonly>

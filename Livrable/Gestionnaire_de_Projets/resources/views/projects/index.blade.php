@@ -44,7 +44,7 @@
   		<td scope="row">{{$p->title}}</th>
   		<td>{{$p->client_name}}</td>
   		{{-- <td>{{date('Y-m-d', strtotime($p->startDate))}}</td> --}}
-      <td>  <div style="color:green;font-weight:bold">{{date('d-m-Y', strtotime($p->limitDate))}}</div></td>
+      <td>  <div style="color:green;font-weight:bold">{{date('Y-m-d', strtotime($p->limitDate))}}</div></td>
 
       {{-- <td>{{ ($p->finishDate) ? date("Y-m-d", strtotime($p->finishDate)) : "inachevé"}}</td> --}}
 

@@ -9,9 +9,9 @@ $factory->define(Project::class, function (Faker $faker) {
     return [
       'title' =>$faker->realText($maxNbChars = 15),
       'description' =>$faker->realText($maxNbChars = 20),
-      'limitDate' =>$faker->date($format = 'd-m-Y', $max = '20-09-2019'),
-      'startDate' =>$faker->date($format = 'd-m-Y', $max = '01-09-2019'),
-      'finishDate' =>$faker->date($format = 'd-m-Y', $max = '25-09-2019'),
+      'limitDate' =>$faker->date($format = 'Y-m-d', $max = '2019-09-20'),
+      'startDate' =>$faker->date($format = 'Y-m-d', $max = '2019-09-01'),
+      'finishDate' =>$faker->date($format = 'Y-m-d', $max = '2019-09-25'),
       'displacement' =>  $faker->boolean,
       'state' =>  $faker->boolean,
       'comment' =>  $faker->realText($maxNbChars = 20),

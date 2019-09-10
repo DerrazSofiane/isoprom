@@ -62,7 +62,7 @@
 
 	<div class="form-group">
 		<label for="date_limite" class="col-md-3 col-form-label">Date Limite</label>
-		<div class="input-group date form_datetime col-md-5" data-date="16-09-1979T05:25:07Z" data-date-format="dd-mm-yyyy hh:ii:ss" data-link-field="dtp_input1">
+		<div class="input-group date form_datetime col-md-5" data-date="1979-09-16T05:25:07Z" data-date-format="yyyy-mm-dd hh:ii:ss" data-link-field="dtp_input1">
 			<input id="limitDate" name="limitDate" class="form-control" size="16" type="text" value="{{$task->limitDate}}" readonly>
 			<span class="input-group-append">
 				<span class="input-group-text fa fa-times fa-lg"></span>

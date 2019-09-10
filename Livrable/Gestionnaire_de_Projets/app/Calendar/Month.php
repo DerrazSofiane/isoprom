@@ -166,7 +166,7 @@ return $result;
 *
 */
   public function Iscurrentdate($date): bool{
-    return ($date->format('d-m-Y')==date('d-m-Y'))? true: false;
+    return ($date->format('Y-m-d')==date('Y-m-d'))? true: false;
   }
 /*
 * Renvois le mois suivant
