@@ -1,0 +1,93 @@
+Jour 1 :
+>Matin :
+	- Cahier des charges :
+		. Infos sur le fonctionnement actuelle de la gestion des projets 
+		. Rédaction du cahier des charges basé sur les infos requises.
+		. Documentation sur UML
+		. Début de conception (diagramme use cases) / cas d'utilisation
+
+>Après-midi :
+	- Modification du cahier de charge
+	- Use Cases
+	- MCD (sur papier)   
+
+Jour 2 :
+
+>Matin :
+	- Conception (MCD MLD) final
+	- Diagramme use case UML
+
+>Après-midi :
+	- Diagrammes de séquences UML
+
+Jour 3 :
+
+>Matin / Après-midi :
+	-Gitlab :
+		- Création projet.
+		- Ajout Laravel.
+		- Ajout dossier conception.
+                - Configuration environnement de travail
+                - Sauvegarde configuration environnement de travail
+	- Validation du chef / modification des diagrammes
+        - UML diagramme use case (modification ...)
+
+Jour 4 :
+Samedi
+
+Jour 5 :
+Dimanche
+
+Jour 6 :
+>Matin / Après-midi :  
+Sofiane :
+	- UML diagramme use case
+	- Diagramme d'états
+	- Diagramme d'activité
+
+Abdessamad : 
+	- Diagramme de classe
+	- Diagrammes de séquence
+	- phpMyAdmin / migration
+
+Jour 7 : 
+- Correction de bugs
+
+Jour 8 :
+	- Migrations des BDD :
+		- 1 : Sofiane-> Projet avec Tasks
+		- 2 : Abdessamad-> User avec Tasks
+		- 3 : Abdessamad-> User avec Projet
+		- 4 : Sofiane-> combinaisons des 3 migrations des BDD
+
+Jour 9 :
+	BDD:
+	<--home tasks--> ProjetController ( Project views..)
+
+Jour 10 :
+Samedi
+
+Jour 11 :
+Dimanche
+
+Jour 12 :
+	- Sofiane : Projet -> index - afficher /JS : calendar
+	- Abdessamad : BDD : create - store 
+
+Jour 13 :
+	- Sofiane : date time picker
+	- Abdessamad : BDD: create (relations ...) - store
+
+Jour 14 :
+	- create/store projet - edit
+
+Jour 15 :
+	- S/A : tasks à finir -> (ProjetController/views)
+	- S-> BDD : edit / update
+	- A-> destruction projet + début taskController
+
+Le reste des jours :
+	- Développement et amélioration de l'application 
+	- Ajout de documentation + modification des diagrammes
+	- Rédaction du rapport de stage
+	- Finitions - présentation
