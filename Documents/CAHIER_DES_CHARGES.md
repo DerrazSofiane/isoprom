@@ -6,7 +6,7 @@ Stage août/septembre 2019
 
 Société : ISOPROM à Le Havre
 
-## Élaborer par
+## Élaboré par
 
 Abdessamad et Sofiane DERRAZ
 
